@@ -1,5 +1,5 @@
 ---
-name: status
+name: vibenalytics-status
 description: Show vibenalytics configuration and sync status
 user_invocable: true
 ---
