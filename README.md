@@ -14,11 +14,15 @@ Or see the [CLI repository](https://github.com/Vibenalytics/vibenalytics-cli) fo
 
 ## Installation
 
-Add this plugin to your Claude Code configuration:
+1. Add the Vibenalytics marketplace:
+   ```
+   /plugin marketplace add vibenalytics/vibenalytics-claude-plugin
+   ```
 
-```bash
-claude plugin add Vibenalytics/vibenalytics-claude-plugin
-```
+2. Install the plugin:
+   ```
+   /plugin install vibenalytics@vibenalytics
+   ```
 
 ## What it does
 

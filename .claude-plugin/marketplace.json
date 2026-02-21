@@ -1,0 +1,24 @@
+{
+  "name": "vibenalytics",
+  "owner": {
+    "name": "Vibenalytics",
+    "email": "hello@vibenalytics.dev"
+  },
+  "metadata": {
+    "description": "Vibenalytics plugins for Claude Code analytics"
+  },
+  "plugins": [
+    {
+      "name": "vibenalytics",
+      "source": "./plugins/vibenalytics",
+      "description": "Claude Code usage analytics — captures session metrics, tool usage, and performance data",
+      "version": "1.0.0",
+      "author": {
+        "name": "Martin Vanco"
+      },
+      "homepage": "https://vibenalytics.dev",
+      "repository": "https://github.com/vibenalytics/vibenalytics-claude-plugin",
+      "category": "analytics"
+    }
+  ]
+}
