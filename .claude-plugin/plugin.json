@@ -1,0 +1,8 @@
+{
+  "name": "claudnalytics",
+  "description": "Claude Code usage analytics — captures session metrics, tool usage, and performance data",
+  "version": "1.0.0",
+  "author": {
+    "name": "Martin Vanco"
+  }
+}
