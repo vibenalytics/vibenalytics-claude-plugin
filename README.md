@@ -1,13 +1,13 @@
 # Vibenalytics Claude Plugin
 
-Claude Code plugin that captures session metrics, tool usage, and performance data for your [Vibenalytics](https://vibenalytics.com) dashboard.
+Claude Code plugin that captures session metrics, tool usage, and performance data for your [Vibenalytics](https://vibenalytics.dev) dashboard.
 
 ## Prerequisites
 
 Install the Vibenalytics CLI before using this plugin:
 
 ```bash
-curl -fsSL https://vibenalytics.com/install.sh | bash
+curl -fsSL https://vibenalytics.dev/install.sh | bash
 ```
 
 Or see the [CLI repository](https://github.com/Vibenalytics/vibenalytics-cli) for alternative installation methods.
@@ -22,7 +22,7 @@ claude plugin add Vibenalytics/vibenalytics-claude-plugin
 
 ## What it does
 
-The plugin hooks into all 13 Claude Code lifecycle events and pipes event metadata to the `claudnalytics` CLI for aggregation and sync:
+The plugin hooks into all 13 Claude Code lifecycle events and pipes event metadata to the `vibenalytics` CLI for aggregation and sync:
 
 - **SessionStart / SessionEnd** — session boundary tracking
 - **UserPromptSubmit** — prompt counting
@@ -48,5 +48,5 @@ All hooks run **async** (~1ms overhead) so they never block your workflow.
 
 ## Links
 
-- [Vibenalytics Dashboard](https://vibenalytics.com)
+- [Vibenalytics Dashboard](https://vibenalytics.dev)
 - [CLI Installation & Docs](https://github.com/Vibenalytics/vibenalytics-cli)
