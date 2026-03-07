@@ -14,15 +14,13 @@ Or see the [CLI repository](https://github.com/Vibenalytics/vibenalytics-cli) fo
 
 ## Installation
 
-1. Add the Vibenalytics marketplace:
-   ```
-   /plugin marketplace add vibenalytics/vibenalytics-claude-plugin
-   ```
+In any Claude Code session, run:
 
-2. Install the plugin:
-   ```
-   /plugin install vibenalytics@vibenalytics
-   ```
+```
+/install-plugin vibenalytics/vibenalytics-claude-plugin
+```
+
+> **Important:** Install this globally (not per-project) - which projects get synced is managed within Vibenalytics.
 
 ## What it does
 
