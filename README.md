@@ -10,7 +10,7 @@ Install the Vibenalytics CLI before using this plugin:
 curl -fsSL https://vibenalytics.dev/install.sh | bash
 ```
 
-Or see the [CLI repository](https://github.com/Vibenalytics/vibenalytics-cli) for alternative installation methods.
+Or see the [CLI repository](https://github.com/vibenalytics/vibenalytics) for alternative installation methods.
 
 ## Installation
 
@@ -42,7 +42,7 @@ All hooks run **async** (~1ms overhead) so they never block your workflow.
 
 - No file content, prompt text, or tool output is captured
 - Only metadata is logged: tool names, file paths, session IDs, timestamps, byte sizes
-- Workdir paths are SHA-256 hashed before leaving your machine
+- Workdir paths are hashed before leaving your machine
 
 ## Commands
 
@@ -51,4 +51,4 @@ All hooks run **async** (~1ms overhead) so they never block your workflow.
 ## Links
 
 - [Vibenalytics Dashboard](https://vibenalytics.dev)
-- [CLI Installation & Docs](https://github.com/Vibenalytics/vibenalytics-cli)
+- [CLI Installation & Docs](https://github.com/vibenalytics/vibenalytics)
